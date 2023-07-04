@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>Document</title>
+  </head>
+  <body
+    class="w-full h-[100vh] bg-cover bg-left"
+    style="background-image: url(assets/pexels-tirachard-kumtanom-733852.jpg)"
+  >
+
+   
+
+
+  
+    <main
+      class="w-full h-full pt-[400px] flex justify-center items-center gap-10"
+    >
+      <div class="w-4/12 h-[200px] bg-[rgb(238,202,164)] rounded-lg shadow-xl">
+        <form action="" class="p-7 flex flex-col justify-evenly">
+          <label class="block mb-1 font-semibold text-lg text-white" for="Name"
+            >Name</label
+          >
+          <input
+            class="w-full mb-5 rounded-md p-2"
+            type="text"
+            id="name-input"
+            placeholder="Inserisci nome"
+          />
+
+          <div class="">
+            <button
+              id="save-button"
+              class="bg-amber-400 py-2 px-5 rounded-lg text-white"
+              type="submit"
+            >
+              Salva
+            </button>
+            <button
+              id="cancel-button"
+              class="bg-amber-400 py-2 px-5 rounded-lg text-white"
+              type="button"
+            >
+              Cancella
+            </button>
+          </div>
+        </form>
+      </div>
+      <div
+        class="w-4/12 h-[200px] bg-[rgb(238,202,164)] rounded-lg shadow-xl"
+      >
+    <h1 id="contatore" class="text-xl text-white p-2"></h1>
+
+        <h2 class="text-3xl text-white text-center mt-10" id="name-output"></h2>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+l
